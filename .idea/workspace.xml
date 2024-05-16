@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05bd973-91d9-4bb0-9009-a659a16ca72b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f05bd973-91d9-4bb0-9009-a659a16ca72b" name="Changes" comment="Modificar propiedades de controles">
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/empresa/javafxmongocrud100/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/empresa/javafxmongocrud100/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.HelloApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -93,11 +93,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715857467878</updated>
-      <workItem from="1715857468898" duration="660000" />
+      <workItem from="1715857468898" duration="1993000" />
     </task>
+    <task id="LOCAL-00001" summary="Modificar propiedades de controles">
+      <option name="closed" value="true" />
+      <created>1715858364229</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715858364229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Modificar propiedades de controles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificar propiedades de controles" />
   </component>
 </project>
