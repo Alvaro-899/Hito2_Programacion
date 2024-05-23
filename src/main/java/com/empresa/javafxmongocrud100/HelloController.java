@@ -159,7 +159,7 @@ public class HelloController {
 
         vboxMain.getChildren().addAll(buttonBox, tableBox);
     }
-
+    // metodo para ver productos
     private void viewCollection() {
         MongoCollection<Document> collection = database.getCollection("clientes");
         data.clear();
@@ -181,7 +181,7 @@ public class HelloController {
             }
         }
     }
-
+    // Metodo para añadir los campos para añadir productos
     private VBox createAddProductForm() {
         VBox addProductForm = new VBox(10);
 
@@ -207,7 +207,7 @@ public class HelloController {
 
         return addProductForm;
     }
-
+    // Metodo para añadir productos
     private void addProduct(TextField tfNombre, ComboBox<String> cbCategoria, TextField tfCantidad, VBox addProductForm) {
         try {
             if (tfNombre.getText().isEmpty()) {
@@ -246,7 +246,7 @@ public class HelloController {
             e.printStackTrace();
         }
     }
-
+    // Metodo para editar productos
     private void editSelectedProduct() throws Exception {
         Document selectedProduct = tableView.getSelectionModel().getSelectedItem();
         if (selectedProduct != null) {
@@ -344,7 +344,7 @@ public class HelloController {
             });
         }
     }
-
+    // Metodo para eliminar productos
     private void deleteSelectedProduct() {
         Document selectedProduct = tableView.getSelectionModel().getSelectedItem();
         if (selectedProduct != null) {
@@ -377,7 +377,7 @@ public class HelloController {
             showAlert("Advertencia", "Seleccione un producto para eliminar.");
         }
     }
-
+    // Metodo de mensaje de alerta
     private void showAlert(String title, String message) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle(title);
