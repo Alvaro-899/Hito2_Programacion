@@ -108,7 +108,7 @@ public class HelloController {
     private void showOperationButtons() {
         vboxMain.getChildren().clear();
 
-        Button btnViewCollection = new Button("Ver Colección");
+        Button btnViewCollection = new Button("Ver Producto");
         btnViewCollection.setOnAction(event -> viewCollection());
 
         Button btnAddProduct = new Button("Introducir Producto");
