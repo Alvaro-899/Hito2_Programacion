@@ -52,7 +52,7 @@ public class HelloController {
             showOperationButtons();
             welcomeText.setText("Connection successful!");
         } catch (Exception e) {
-            welcomeText.setText("Connection failed: " + e.getMessage());
+            welcomeText.setText("Conexion fallida");
         }
     }
 

@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f05bd973-91d9-4bb0-9009-a659a16ca72b" name="Changes" comment="Ver coleccion">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/empresa/javafxmongocrud100/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/empresa/javafxmongocrud100/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/empresa/javafxmongocrud100/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +115,7 @@
       <workItem from="1716281771505" duration="2712000" />
       <workItem from="1716375966242" duration="674000" />
       <workItem from="1716447547868" duration="124000" />
-      <workItem from="1716451095918" duration="13210000" />
+      <workItem from="1716451095918" duration="13744000" />
     </task>
     <task id="LOCAL-00001" summary="Modificar propiedades de controles">
       <option name="closed" value="true" />
@@ -162,11 +157,30 @@
       <option name="project" value="LOCAL" />
       <updated>1716460751142</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ver coleccion">
+      <option name="closed" value="true" />
+      <created>1716465675411</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716465675411</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modificar propiedades de controles" />
