@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.empresa.javafxmongocrud100.HelloController">
+<VBox fx:id="vboxMain" alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.empresa.javafxmongocrud100.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
@@ -14,8 +14,6 @@
     <TextField fx:id="tfUser" />
     <Label text="Contraseña" />
     <PasswordField fx:id="pfPass" />
-    <Button mnemonicParsing="false" onAction="#mostrar" text="Mostrar datos" />
-    <ListView fx:id="lv_datos" prefHeight="95.0" prefWidth="524.0" />
+    <Button mnemonicParsing="false" onAction="#connect" text="Conectar" />
     <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Probar conexion con Mongo!" />
 </VBox>

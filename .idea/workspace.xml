@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05bd973-91d9-4bb0-9009-a659a16ca72b" name="Changes" comment="Conexion a mongo y muestra de datos">
+    <list default="true" id="f05bd973-91d9-4bb0-9009-a659a16ca72b" name="Changes" comment="Usuario, contraseña y servidor introducido por usuario">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/empresa/javafxmongocrud100/HelloController.java" afterDir="false" />
@@ -14,6 +14,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,7 +111,11 @@
       <option name="presentableId" value="Default" />
       <updated>1715857467878</updated>
       <workItem from="1715857468898" duration="5236000" />
-      <workItem from="1716274684944" duration="1649000" />
+      <workItem from="1716274684944" duration="2728000" />
+      <workItem from="1716281771505" duration="2712000" />
+      <workItem from="1716375966242" duration="674000" />
+      <workItem from="1716447547868" duration="124000" />
+      <workItem from="1716451095918" duration="8478000" />
     </task>
     <task id="LOCAL-00001" summary="Modificar propiedades de controles">
       <option name="closed" value="true" />
@@ -130,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715863256081</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Usuario, contraseña y servidor introducido por usuario">
+      <option name="closed" value="true" />
+      <created>1716276630756</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716276630756</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +159,7 @@
     <MESSAGE value="Modificar propiedades de controles" />
     <MESSAGE value="Capa visual mostrar en listview" />
     <MESSAGE value="Conexion a mongo y muestra de datos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conexion a mongo y muestra de datos" />
+    <MESSAGE value="Usuario, contraseña y servidor introducido por usuario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usuario, contraseña y servidor introducido por usuario" />
   </component>
 </project>
