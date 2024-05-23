@@ -1,0 +1,42 @@
+/* styles.css */
+
+.root {
+    -fx-font-family: Arial, sans-serif;
+    -fx-background-color: #f0f0f0;
+}
+
+.label {
+    -fx-font-size: 16px;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+.password-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+}
+
+.table-view {
+    -fx-font-size: 14px;
+}
+
+.context-menu {
+    -fx-background-color: #f0f0f0;
+}
+
+.context-menu .menu-item {
+    -fx-font-size: 14px;
+}
